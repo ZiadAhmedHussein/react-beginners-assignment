@@ -1,0 +1,17 @@
+.portfolio {
+  background-color: white;
+  color: var(--second-color);
+  min-height: 95vh;
+}
+.icon{
+  background-color: #1abc9cce;
+  cursor: pointer;
+  opacity: 0;
+  transition: .5s;
+}
+.content {
+  cursor: pointer;
+}
+.content:hover .icon {
+  opacity: 1;
+}
